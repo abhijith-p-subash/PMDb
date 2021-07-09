@@ -1,0 +1,16 @@
+.con-root{
+    background-image: url("https://www.desktopbackground.org/download/2560x1440/2012/08/15/437099_free-backgrounds-wallpapers_2560x1600_h.jpg");
+    background-size: cover;
+    /* text-align: center; */
+    padding: 40px;
+    color: #fff;
+}
+.con-root h1{
+    color: yellow;
+}
+.con-root hr{
+    color: yellow;
+}
+.email{
+    margin: 20px 0 20px 0;
+}

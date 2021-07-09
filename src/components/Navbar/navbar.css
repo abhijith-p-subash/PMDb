@@ -1,0 +1,98 @@
+.brand{
+    background-color: black;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    position: static;
+    /* align-items: center;
+    justify-content: center;
+    display: flex; */
+
+
+}
+.brand-body{
+    width: 85px;
+    height: 35px;
+    color: black;
+    background-color: yellow;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.links{
+    margin-left: 15px;
+    
+}
+.navbar{
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+}
+
+.toggler{
+    padding: auto;
+    margin-right: 10px;
+}
+.login-btn{
+    margin-right: 10px;
+}
+.form{
+    margin-bottom: 20px;
+}
+
+.search-input{
+    border: solid 1px yellow;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 30px;
+    padding-left: 10px;
+    
+}
+.search-input::selection{
+    border: solid 2px yellow;
+}
+.search-btn{
+    height: 31px;
+    width: 60px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: transparent;
+    border: solid 1px yellow;
+    color: yellow;
+    outline: none;
+    font-weight:bold ;
+    transition: all 0.2s ease-in-out;
+    
+}
+.search-btn:hover{
+    color: #000;
+    background-color: yellow;
+    transition: all 0.2s ease-in-out;
+}
+
+.search-icon{
+    color: yellow;
+    width: 30px;
+    height: 30px;
+    border: solid 1px yellow;
+    border-radius: 5px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+
+}
+.search-icon:hover{
+    color: black;
+    transition: all 0.2s ease-in-out;
+    background-color: yellow;
+}
+.x{
+    margin-left: 16px;
+    margin-right: 20px;
+}

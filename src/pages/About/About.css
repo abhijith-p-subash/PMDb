@@ -1,0 +1,51 @@
+.about-1{
+    background-color: #000;
+}
+.about-root{
+    background-image: url("https://res.allmacwallpaper.com/get/MacBook-Air-11-inch-wallpapers/World-Map-Dark-1366x768/2712-3.jpg");
+    background-size: cover;
+    /* text-align: center; */
+    padding: 40px;
+}
+.about-root h1{
+    color: yellow;
+}
+
+.about-root hr{
+    color: yellow;
+   
+}
+.about-list{
+    color: #fff;
+    
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.about-list li{
+    margin: 20px 0 20px 0 ;
+    
+}
+.about-btn{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-btn button{
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+    outline: none;
+    border: solid 1px yellow;
+    background-color: transparent;
+    color: yellow;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+.about-btn button:hover{
+    background-color: yellow;
+    color: #000;
+    transition: all 0.2s ease-in-out;
+}

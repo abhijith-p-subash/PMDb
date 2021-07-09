@@ -1,0 +1,78 @@
+.footer{
+    height: auto;
+    background-color: rgb(63, 63, 63);
+    padding-top: 30px;flex-direction: row;
+}
+
+.footer-main{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo{
+    width: 130px;
+    height: 60px;
+    background-color: yellow;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 30px 10px 30px 0 ;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 5px 5px 9px  black;
+}
+.footer-logo h1{
+    font-weight: bold;
+}
+.footer-logo:hover{
+    transform: scale(1.09);
+    transition: all 0.2s ease-in-out;
+}
+.col-content{
+    color: #fff;
+    margin: 30px 10px 30px 30px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+.col-content h5{
+    color: yellow;
+    font-weight: bold;
+}
+
+.col-content a{
+    text-decoration: none;
+    color: #fff;
+    /* font-weight: lighter; */
+
+}
+
+.col-content a:hover{
+    color: yellow;
+}
+.social-icons{
+    color: yellow;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.i{
+    margin: 25px;
+    transition: all 0.2s ease-in-out;
+}
+.i:hover{
+    transform: scale(1.3);
+    color:rgb(253, 253, 117);
+    transition: all 0.2s ease-in-out;
+}
+.copy{
+    background-color: yellow;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,129 @@
+.poster-root{
+    background-color: black;
+    padding: 30px;
+    color: #fff;
+    position: relative;
+
+}
+.poster-root h1{
+    margin: 10px 0 20px 0;
+}
+.posters{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    padding: 20px 20px 100px 20px;
+    margin-bottom: 10px;
+}
+
+.posters hr{
+    color: yellow;
+}
+
+.posters::-webkit-scrollbar{
+    width: 2px;
+}
+.posters::-webkit-scrollbar-track{
+    background: #000;
+}
+.posters::-webkit-scrollbar-thumb{
+    background: rgb(31, 31, 31);
+    border-radius: 6px;
+    height: 2px;
+}.posters::-webkit-scrollbar-thumb:hover{
+    background: rgb(73, 73, 73);
+}
+
+.poster{
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+    cursor: pointer;
+    border: solid 1px rgb(78, 78, 78);
+}
+.poster img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.image{
+    position: relative;
+    
+}
+.image:hover{
+    transform: scale(1.08);
+    transition: all 0.2s ease-in-out;
+    
+}
+.image:hover img{
+    opacity: 0.3;
+}
+.image:hover .img-tag{
+    transform: scale(1.08);
+    transition: all 0.2s ease-in-out;
+    visibility: visible;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    border: solid 3px yellow;
+ 
+}
+.static-data{
+    color: #fff;
+    padding: 20px 0 10px 5px;
+    visibility: visible;
+    position: absolute;
+    bottom: -70px;
+    left: 10px;
+    font-size: 15px;
+}
+
+.image:hover .static-data{
+    visibility: hidden;
+}
+.img-tag{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    visibility: hidden;
+    
+}
+.btn-3{
+    background-color: transparent;
+    border-radius: 5px;
+    border: solid 1px yellow;
+    color: yellow;
+    outline: none;
+    font-weight:bold ;
+    height: 35px;
+    width: 80px;
+    margin-left:10px ;
+}
+.btn-3:hover{
+    color: #000;
+    background-color: yellow;
+ 
+}
+.radio-in{
+    color: yellow;
+    font-size: 20px;
+}
+.radio-lab{
+    margin: 10px;
+}

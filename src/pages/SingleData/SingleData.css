@@ -1,0 +1,66 @@
+.sin-z{
+    background-color: black;
+}
+.sin-root{
+    background-color: #000;
+    
+}
+
+.sin-img{
+    /* width: 240px;
+    height: 290px; */
+    margin: 20px 0 40px 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sin-img img{
+    width: 95%;
+    height: 100%;
+    /* border: solid 1px yellow; */
+    border-radius: 10px;
+    
+}
+.sin-content{
+    margin: 20px 0 40px 0;
+    color: #fff;
+    
+}
+.sin-rat h3{
+    display: inline;
+}
+.sin-rat button{
+    margin-left: 10px;
+    color: yellow;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.sin-content-over{
+    margin: 20px 0 10px 0;
+}
+.sin-credits{
+    margin: 10px;
+   
+}
+.review{
+    color: #fff;
+}
+.review h4{
+    color: yellow;
+}
+.seemore{
+    color: yellow;
+    cursor: pointer;
+}
+.youtube{
+    width: 550px;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
